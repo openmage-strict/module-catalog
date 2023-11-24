@@ -1,0 +1,13 @@
+{
+    "name": "openmage-strict/module-catalog",
+    "description": "Mage_Catalog",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "openmage-strict/module-cms": "*",
+        "openmage-strict/module-dataflow": "*",
+        "openmage-strict/module-eav": "*",
+        "openmage-strict/module-index": "*"
+    }
+}
