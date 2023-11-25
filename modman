@@ -5,6 +5,7 @@ src/app/design/frontend/base/default/layout/catalog.xml             app/design/f
 src/app/design/frontend/base/default/template/callouts/             app/design/frontend/base/default/template/callouts/
 src/app/design/frontend/base/default/template/catalog/              app/design/frontend/base/default/template/catalog/
 src/app/design/frontend/rwd/default/layout/catalog.xml              app/design/frontend/rwd/default/layout/catalog.xml
+src/app/design/frontend/rwd/default/template/email/catalog/         app/design/frontend/rwd/default/template/email/catalog/
 src/app/design/frontend/rwd/default/template/catalog/               app/design/frontend/rwd/default/template/catalog/
 src/app/etc/modules/Mage_Catalog.xml                                app/etc/modules/Mage_Catalog.xml
 src/app/locale/en_US/Mage_Catalog.csv                               app/locale/en_US/Mage_Catalog.csv
