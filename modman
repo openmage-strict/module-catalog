@@ -2,9 +2,11 @@ src/app/code/core/Mage/Catalog/                                     app/code/cor
 src/app/design/adminhtml/default/default/layout/catalog.xml         app/design/adminhtml/default/default/layout/catalog.xml
 src/app/design/adminhtml/default/default/template/catalog/          app/design/adminhtml/default/default/template/catalog/
 src/app/design/frontend/base/default/layout/catalog.xml             app/design/frontend/base/default/layout/catalog.xml
+src/app/design/frontend/base/default/layout/catalog_msrp.xml        app/design/frontend/base/default/layout/catalog.xml
 src/app/design/frontend/base/default/template/callouts/             app/design/frontend/base/default/template/callouts/
 src/app/design/frontend/base/default/template/catalog/              app/design/frontend/base/default/template/catalog/
 src/app/design/frontend/rwd/default/layout/catalog.xml              app/design/frontend/rwd/default/layout/catalog.xml
+src/app/design/frontend/rwd/default/layout/catalog_msrp.xml         app/design/frontend/rwd/default/layout/catalog_msrp.xml
 src/app/design/frontend/rwd/default/template/email/catalog/         app/design/frontend/rwd/default/template/email/catalog/
 src/app/design/frontend/rwd/default/template/catalog/               app/design/frontend/rwd/default/template/catalog/
 src/app/etc/modules/Mage_Catalog.xml                                app/etc/modules/Mage_Catalog.xml
