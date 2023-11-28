@@ -217,7 +217,7 @@
                     <show_in_store>1</show_in_store>
                     <fields>
                         <placeholder>
-                            <label></label>
+                            <label/>
                             <frontend_type>image</frontend_type>
                             <backend_model>adminhtml/system_config_backend_image</backend_model>
                             <upload_dir config="system/filesystem/media" scope_info="1">catalog/product/placeholder</upload_dir>

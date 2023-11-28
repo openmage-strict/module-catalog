@@ -35,13 +35,14 @@
     <adminhtml_catalog_product_new>
         <update handle="editor"/>
         <reference name="content">
-            <block type="adminhtml/catalog_product_edit" name="product_edit"></block>
+            <block type="adminhtml/catalog_product_edit" name="product_edit"/>
         </reference>
         <reference name="left">
-            <block type="adminhtml/catalog_product_edit_tabs" name="product_tabs"></block>
+            <block type="adminhtml/catalog_product_edit_tabs" name="product_tabs"/>
         </reference>
         <reference name="js">
-            <block type="adminhtml/catalog_product_edit_js" template="catalog/product/js.phtml" name="catalog_product_js"></block>
+            <block type="adminhtml/catalog_product_edit_js" template="catalog/product/js.phtml"
+                   name="catalog_product_js"/>
             <block type="core/template" template="catalog/wysiwyg/js.phtml"/>
         </reference>
     </adminhtml_catalog_product_new>
@@ -49,14 +50,15 @@
     <adminhtml_catalog_product_edit>
         <update handle="editor"/>
         <reference name="content">
-            <block type="adminhtml/catalog_product_edit" name="product_edit"></block>
+            <block type="adminhtml/catalog_product_edit" name="product_edit"/>
         </reference>
         <reference name="left">
-            <block type="adminhtml/store_switcher" name="store_switcher" before="-"></block>
-            <block type="adminhtml/catalog_product_edit_tabs" name="product_tabs"></block>
+            <block type="adminhtml/store_switcher" name="store_switcher" before="-"/>
+            <block type="adminhtml/catalog_product_edit_tabs" name="product_tabs"/>
         </reference>
         <reference name="js">
-            <block type="adminhtml/catalog_product_edit_js" template="catalog/product/js.phtml" name="catalog_product_js"></block>
+            <block type="adminhtml/catalog_product_edit_js" template="catalog/product/js.phtml"
+                   name="catalog_product_js"/>
             <block type="core/template" name="catalog.wysiwyg.js" template="catalog/wysiwyg/js.phtml"/>
         </reference>
     </adminhtml_catalog_product_edit>
@@ -230,7 +232,7 @@ Layout handle for configurable products
     <adminhtml_catalog_product_configurable_new>
         <remove name="product_tabs"/>
         <reference name="left">
-            <block type="adminhtml/catalog_product_edit_tabs_configurable" name="configurable_product_tabs"></block>
+            <block type="adminhtml/catalog_product_edit_tabs_configurable" name="configurable_product_tabs"/>
         </reference>
     </adminhtml_catalog_product_configurable_new>
 
@@ -260,13 +262,13 @@ Layout handle for configurable products
 
     <adminhtml_catalog_product_attribute_edit>
         <reference name="left">
-            <block type="adminhtml/catalog_product_attribute_edit_tabs" name="attribute_edit_tabs"></block>
+            <block type="adminhtml/catalog_product_attribute_edit_tabs" name="attribute_edit_tabs"/>
         </reference>
         <reference name="content">
-            <block type="adminhtml/catalog_product_attribute_edit" name="attribute_edit_content"></block>
+            <block type="adminhtml/catalog_product_attribute_edit" name="attribute_edit_content"/>
         </reference>
         <reference name="js">
-            <block type="adminhtml/template" name="attribute_edit_js" template="catalog/product/attribute/js.phtml"></block>
+            <block type="adminhtml/template" name="attribute_edit_js" template="catalog/product/attribute/js.phtml"/>
         </reference>
     </adminhtml_catalog_product_attribute_edit>
 
