@@ -8,6 +8,8 @@
         "openmage-strict/module-cms": "^120.2",
         "openmage-strict/module-dataflow": "^120.2",
         "openmage-strict/module-eav": "^120.2",
-        "openmage-strict/module-index": "^120.2"
+        "openmage-strict/module-index": "^120.2",
+        "zf1s/zend-db": "*",
+        "zf1s/zend-file-transfer": "*"
     }
 }
